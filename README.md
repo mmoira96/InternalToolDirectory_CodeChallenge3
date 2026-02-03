@@ -1,9 +1,5 @@
 # InternalToolDirectory_CodeChallenge3
-Internal Tool Directory built with Django (MVT). Includes a CompanyTool model stored in SQLite, data managed via Django Admin, and a card-style UI that conditionally renders cloud vs. local tools using templates and template inheritance.
-
-# InternalToolDirectory_CodeChallenge3  
-
-This project is a simple Internal Tool Directory built with Django using the **Model–View–Template (MVT)** pattern. It was created as part of a Code Challenge to demonstrate:  
+Internal Tool Directory built with Django (MVT). Includes a CompanyTool model stored in SQLite, data managed via Django Admin, and a card-style UI that conditionally renders cloud vs. local tools using templates and template inheritance. It demonstrates: 
 
 - Django project configuration in PyCharm  
 - Database persistence with SQLite  
@@ -12,9 +8,7 @@ This project is a simple Internal Tool Directory built with Django using the **M
 - Template inheritance (`base.html`)  
 - Routing with `urls.py`  
 
----
-
-## 📌 Features  
+## Features  
 
 The application allows an IT department to:  
 
@@ -26,7 +20,7 @@ The application allows an IT department to:
 
 ---
 
-## 🧱 Data Model  
+## Data Model  
 
 The project uses a `CompanyTool` model with the following fields:  
 
@@ -38,9 +32,11 @@ The project uses a `CompanyTool` model with the following fields:
 
 ---
 
-## 🌐 How to Run the Project  
+##  How to Run the Project  
 
 ### 1️⃣ Clone the repository  
 ```bash
 git clone https://github.com/mmoira96/InternalToolDirectory_CodeChallenge3.git
 cd InternalToolDirectory
+
+
