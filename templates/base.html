@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internal Tool Directory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f5f7;
+            margin: 0;
+        }
+
+        .page {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 24px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            background: #ffffff;
+        }
+
+        .tool-name {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        .dept {
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .cloud {
+            color: #1e88e5;
+            font-weight: bold;
+        }
+
+        .local {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <h1>Internal Tool Directory</h1>
+    <div class="subtitle">
+        Track tools used by each department (MVT + Admin + DB + Conditional Templates)
+    </div>
+    <hr>
+
+    {% block content %}{% endblock %}
+</div>
+
+</body>
+</html>

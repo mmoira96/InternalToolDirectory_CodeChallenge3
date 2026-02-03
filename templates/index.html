@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for tool in tools %}
+
+<div class="card">
+    <div class="tool-name">{{ tool.tool_name }}</div>
+
+    <div class="dept">
+        Department: {{ tool.department }}
+    </div>
+
+    {% if tool.is_cloud_based %}
+        <div class="cloud">☁️ Cloud-based</div>
+    {% else %}
+        <div class="local">🖥️ Local / Installed</div>
+    {% endif %}
+</div>
+
+{% empty %}
+<p style="text-align:center;">No tools added yet.</p>
+{% endfor %}
+
+{% endblock %}
