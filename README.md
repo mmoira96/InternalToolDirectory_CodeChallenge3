@@ -34,9 +34,32 @@ The project uses a `CompanyTool` model with the following fields:
 
 ##  How to Run the Project  
 
-### 1️⃣ Clone the repository  
+1. Clone the repository  
 ```bash
 git clone https://github.com/mmoira96/InternalToolDirectory_CodeChallenge3.git
 cd InternalToolDirectory
 
+2️. Install dependencies
+pip install django
 
+3. Apply migrations
+python manage.py makemigrations
+python manage.py migrate
+
+4. Create superuser
+python manage.py createsuperuser
+
+5. Run the server
+python manage.py runserver
+
+-- Tech Stack -- 
+
+Python
+
+Django 6.0.1
+
+SQLite
+
+HTML + CSS (Django Templates)
+
+PyCharm Professional
